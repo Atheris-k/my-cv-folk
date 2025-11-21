@@ -80,14 +80,18 @@ a {
     justify-content: end;
     flex-wrap: wrap;
     gap: 0px;
-    padding-right: 3rem;
     background-color: #3aa2f0;
 }
-
+@media (max-width: 750px) {
+   .nav-bar {
+    justify-content: center;
+} 
+}
 .nav-bar a {
     color: white;
-    padding: 1em;
+    padding: 1em .5em;
 }
+
 
 .nav-bar a:hover {
     background-color: white;
